@@ -14,4 +14,7 @@ for character in string_input:
         continue
 
 # if non-space character is found the value becomes True(1), then start adding characters to result string
+    non_space_character = 1
+    string_without_leading_spaces += character
+
 # print the string input without leading spaces
