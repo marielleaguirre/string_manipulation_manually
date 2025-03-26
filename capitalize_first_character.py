@@ -5,4 +5,9 @@
 string_input = input("Enter a string: ")
 
 # check if string is not empty, then convert the first character to uppercase, while the rest remain lowercase
+if string_input:
+    capitalized_string = string_input[0].upper() + string_input[1:].lower()
+else:
+    capitalized_string = string_input
+
 # print the string in capitalize string format
