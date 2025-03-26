@@ -11,3 +11,4 @@ else:
     capitalized_string = string_input
 
 # print the string in capitalize string format
+print(f"Capitalized string: '{capitalized_string}'")
