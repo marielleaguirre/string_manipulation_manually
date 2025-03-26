@@ -6,5 +6,11 @@ string_input = input("Enter a string: ")
 desired_length = int(input("Enter the total length you want: "))
 
 # if the string input is shorter than their desired length
-#   calculate the total spaces needed, divide equally to both sides, then add space/s to both sides
+if len(string_input) < desired_length:
+    #calculate the total spaces needed, divide equally to both sides, then add space/s to both sides
+    total_spaces = desired_length - len(string_input)
+    left_spaces = total_spaces // 2
+    right_spaces = total_spaces - left_spaces
+    string_input = " " * left_spaces + string_input + " " * right_spaces
+
 # print center align string
