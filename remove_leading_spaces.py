@@ -9,5 +9,9 @@ string_without_leading_spaces = ""
 non_space_character = 0
 
 # using for loop, loop through each character in the string
-# if non-space character is found, start adding characters to result string
+for character in string_input:
+    if not non_space_character and character == " ":
+        continue
+
+# if non-space character is found the value becomes True(1), then start adding characters to result string
 # print the string input without leading spaces
