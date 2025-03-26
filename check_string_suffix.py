@@ -10,5 +10,6 @@ if string_input[-len(suffix_to_check):] == suffix_to_check:
     is_character_suffix = True
 else:
     is_character_suffix = False
-     
+
 # print True if string ends with the suffix input, otherwise print False
+print(is_character_suffix)
