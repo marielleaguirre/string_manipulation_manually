@@ -6,5 +6,9 @@ string_input = input("Enter a string: ")
 is_character_uppercase = True
 
 # using for loop, loop through each characters in the string
-# if at least one character is in lowercase, print False
+for character in string_input:
+    if 'a' <= character <= 'z':
+        is_character_uppercase = False  # if at least one character is in lowercase, print False
+        break
+
 # if all characters in the string are uppercase, print True
