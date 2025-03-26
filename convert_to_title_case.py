@@ -2,6 +2,8 @@
 # Create a program that do the same functionality without using title() function.
 
 # ask user for string input
+string_input = input("Enter a string: ")
+
 # split the string into words
 # for each word, convert the first character to uppercase, while the rest of characters in the word remain lowercase
 # join word into a string
