@@ -6,5 +6,10 @@ string_input = input("Enter a string: ")
 lower_case_string = ""
 
 # using for loop to loop through each characters in the string
-# if a character is an uppercase character, convert to lowercase by adding 32 to its ASCII value
+for character in string_input:
+    if 'A' <= character <= 'Z':  # if a character is an uppercase character, convert to lowercase by adding 32 to its ASCII value
+        lower_case_string += chr(ord(character) + 32)
+    else: 
+        lower_case_string += character
+        
 # print the string input in lowercase
