@@ -12,3 +12,4 @@ for character in string_input:
         break
 
 # if all characters in the string are uppercase, print True
+print(is_character_uppercase)
