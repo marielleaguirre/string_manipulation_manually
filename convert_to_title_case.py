@@ -5,6 +5,8 @@
 string_input = input("Enter a string: ")
 
 # split the string into words
+words_in_string = string_input.split()
+
 # for each word, convert the first character to uppercase, while the rest of characters in the word remain lowercase
 # join word into a string
 # print the string in title case
