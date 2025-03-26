@@ -10,3 +10,4 @@ if len(string_input) < desired_length:
     string_input = string_input + " " * (desired_length - len(string_input))
 
 # print the string with added spaces to the right
+print(f"Modified string: '{string_input}'")
