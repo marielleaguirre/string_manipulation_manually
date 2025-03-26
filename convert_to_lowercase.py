@@ -11,5 +11,6 @@ for character in string_input:
         lower_case_string += chr(ord(character) + 32)
     else: 
         lower_case_string += character
-        
+
 # print the string input in lowercase
+print(lower_case_string)
