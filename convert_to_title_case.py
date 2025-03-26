@@ -11,6 +11,4 @@ words_in_string = string_input.split()
 title_cased_words = [word[:1].upper() + word[1:].lower() for word in words_in_string]
 
 # join word into a string
-title_cased_string = " ".join(title_cased_words)
 # print the string in title case
-print(f"String in Title case: '{title_cased_string}'")
