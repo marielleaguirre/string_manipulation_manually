@@ -13,5 +13,6 @@ for character in string_input:
         reverse_string_case += chr(ord(character) - 32)
     else: 
         reverse_string_case += character
-        
+
 # print swapped casing of the string input 
+print(f"Reverse casing: '{reverse_string_case}'")
