@@ -14,3 +14,4 @@ if len(string_input) < desired_length:
     string_input = " " * left_spaces + string_input + " " * right_spaces
 
 # print center align string
+print(f"Centered string: '{string_input}'")
