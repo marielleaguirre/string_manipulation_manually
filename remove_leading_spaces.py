@@ -18,3 +18,4 @@ for character in string_input:
     string_without_leading_spaces += character
 
 # print the string input without leading spaces
+print(string_without_leading_spaces)
