@@ -2,6 +2,9 @@
 # Create a program that do the same functionality without using islower() function.
 
 # ask user for string input and initialize is_character_lowercase to True
+string_input = input("Enter a string: ")
+is_character_lowercase = True
+
 # using for loop, loop thorugh each characters in the string
 # if at least one character is in uppercase, print False
 # if all characters in the string are in lowercase, print True
