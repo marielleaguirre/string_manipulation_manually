@@ -8,5 +8,7 @@ string_input = input("Enter a string with trailing spaces: ")
 index = len(string_input) -1
 
 # loop backward through the string until a non-space character is found
+for character in range(len(string_input) - 1, -1, -1):
+    
 # slice the string to exclude trailing spaces
 # print the modified string
