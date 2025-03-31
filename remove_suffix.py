@@ -11,3 +11,4 @@ if string_input.endswith(suffix):
     removed_suffix = string_input[:len(string_input) - len(suffix)]
 
 # print the string without the given suffix
+print(removed_suffix)
