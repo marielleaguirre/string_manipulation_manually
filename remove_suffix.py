@@ -6,5 +6,8 @@ string_input = input("Enter a string: ")
 suffix = input("Enter the suffix you wish to remove: ")
 
 # check if the string ends with the suffix input
-# remove the suffix manually by slicing
+if string_input.endswith(suffix):
+    # remove the suffix manually by slicing
+    removed_suffix = string_input[:len(string_input) - len(suffix)]
+
 # print the string without the given suffix
