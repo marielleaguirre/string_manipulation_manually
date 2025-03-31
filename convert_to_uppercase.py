@@ -3,7 +3,7 @@
 
 # ask user for string input and initialize an empty string, upper_case_string
 string_input = input("Enter a string: ")
-upper_case_string = " "
+upper_case_string = ""
 
 # using for loop, loop through each characters in the string
 for character in string_input:
@@ -14,3 +14,4 @@ for character in string_input:
         upper_case_string += character
 
 # print the string input in uppercase
+print(upper_case_string)
