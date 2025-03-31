@@ -11,5 +11,7 @@ for i in range(len(string_input) - len(search_word), -1, -1):
     if string_input[i:i + len(search_word)] == search_word:
         print(f"The word/substring '{search_word}' last appears at the index {i}.")
         break
-    
+
 # if no match is found after the loop, print a message saying it was not found
+else:
+    print(f"The word/substring '{search_word}' was not found.")
