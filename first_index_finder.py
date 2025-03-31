@@ -13,3 +13,5 @@ for i in range(len(string_input) - len(search_word) + 1):
         break
 
 # if no match is found after the loop, print a message saying it was not found
+else:
+    print(f"The word/substring '{search_word}' was not found.")
