@@ -10,5 +10,12 @@ occurrence_count = 0
 index = 0
 
 # loop to count occurrences, allowing overlaps
-# move forward by 1 to check overlapping occurrences
+while index < len(string_input):
+    index = string_input.find(search_word, index)
+    if index == -1:
+        break
+    # move forward by 1 to check overlapping occurrences
+    occurrence_count += 1
+    index += 1
+
 # print the result
