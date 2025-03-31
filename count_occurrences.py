@@ -19,3 +19,4 @@ while index < len(string_input):
     index += 1
 
 # print the result
+print(f"The word/substring '{search_word}' appears {occurrence_count} times in the given string.")
