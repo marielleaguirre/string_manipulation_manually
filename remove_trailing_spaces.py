@@ -17,3 +17,4 @@ for character in range(len(string_input) - 1, -1, -1):
 string_without_trailing_spaces = string_input[:index + 1]
 
 # print the modified string
+print(f"'{string_without_trailing_spaces}'")
